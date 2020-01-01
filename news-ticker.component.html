@@ -1,0 +1,5 @@
+<div class="news-wrapper" (mouseenter)="stop()" (mouseleave)="move()">
+    <div class="news-roller" *ngFor="let item of newsList; let i = index">
+        <p class="news-p" [style.top.px]="item.top" [innerHTML]="item.content">{{item.content}}</p>     
+    </div>
+</div>

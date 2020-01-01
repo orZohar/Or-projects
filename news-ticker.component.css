@@ -1,0 +1,16 @@
+.news-p{
+    position: absolute;
+    left: 0;
+    width: calc(100% - 2px);
+    margin: 1px;
+}
+.news-wrapper{
+    position: relative;
+    height: 170px;
+    width: 30vh;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    z-index: 999;
+    background: transparent;
+}
